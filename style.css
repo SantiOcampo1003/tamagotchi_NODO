@@ -1,0 +1,209 @@
+#change-name {
+    border-radius: 10px;
+    border: solid;
+    border-width: 7px;
+    border-color: rgb(226, 43, 217);
+    background-color: rgb(247, 0, 255);
+    color: white;
+    width: 175px;
+    margin: auto;
+    height: auto;
+    border-radius: 10%;
+  
+  
+  }
+  body {
+    background-image: url(/images/fondo.jpg)
+  }
+  
+  .fondo {
+    background-image: url('/images/fondo.jpg'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;   
+  }
+  .fondo {
+   border: solid;
+   border-width: 50px;
+   border-color: #1796e0b6;
+  }
+  
+  
+  
+  #name {
+  height: auto;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 30px;
+  
+  }
+  #name-container {border-radius: 10px;
+  border: solid;
+  border-width: 7px;
+  border-color: rgb(226, 43, 217);
+  background-color: rgb(247, 0, 255);
+  color: white;
+  width: 120px;
+  margin: auto;
+  height: auto;
+  border-radius: 10%;
+  }
+  
+  #tamagotchi-image {
+   
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  
+    margin: auto;
+    border: none;
+    
+  }
+  
+  
+  #tamagotchi-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin: auto;
+    height: auto;
+    background-color: #1796e0b6;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgb(0, 0, 0);
+  }
+  
+  #tamagotchi-image {
+    
+    width: 250px;
+    font-size: 50px;
+    height: 250px;
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  
+  #status-bar-container {
+    column-width: auto;
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 0px;
+    
+    
+  }
+  
+  
+  
+  #health-bar {
+    background-color: red;
+    
+  }
+  
+  #hunger-bar {
+    background-color: yellow;
+    
+  }
+  
+  
+  
+  #buttons-container {
+    display: flex;
+    background-color:#1796e0b6; ;
+    
+    justify-content: center;
+    margin: auto;
+    border: none;
+    border-radius: 50px;
+    width: 300px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 10px rgb(0, 0, 0);
+  }
+  
+  #feed-button, #clean-button, 
+  #play-button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(247, 0, 255);
+    color: white;
+    margin: 7px;
+    border: none;
+    
+    }
+    #click-name {
+      padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(120, 10, 124);
+    color: white;
+    margin: 7px;
+    border: none;
+    
+  
+  
+    }
+    #click-name:hover {background-color: blueviolet;}
+  
+  
+    #feed-button:hover,  
+  #play-button:hover, #clean-button:hover{
+    background-color: #7a0675;
+  
+  }
+    
+  
+  
+  .progress-container-hunger {
+    width: 50%;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 5px;
+    justify-content: center;
+    margin-left: 2px;
+    
+  }
+  
+  .progress-bar-hunger {
+    height: 100%;
+    color: white;
+    font-weight: bold;  
+    background-color: #84860ade;
+    border-radius: 5px;
+  }
+  
+  .progress-container-health{
+    width: 50%;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 5px;
+  }
+  
+  .progress-bar-health {
+    height: 20px;
+    font-weight: bold;
+    color: #ddd;
+    background-color: #84860ade;
+    width: 50%;
+    border-radius: 5px;
+  }
+  
+  #text-hunger {
+  margin-left: 100px;
+  font-size: 25px;
+  font-weight: bold;
+  color:yellow;
+  
+  
+  }
+   
+  #text-health {
+    color:red;
+    
+  font-size: 25px;
+  font-weight: bold;
+  }
+    
+  
